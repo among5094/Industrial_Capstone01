@@ -1,0 +1,53 @@
+
+/* 네비게이션 전체 바 영역 */
+.navbar {
+    background-color: white; /* 상단바 배경색 */
+    padding: 1rem 2rem; /* 위아래 1rem, 좌우 2rem 여백 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 아래 그림자 */
+    display: flex;
+    flex-direction: column; /* 요소들을 위 → 아래로 배치 */
+    align-items: center; /* 내부 요소들을 가운데 정렬 (가로 기준) */
+    position: relative; /* logo-section을 절대 위치로 배치하기 위해 기준 설정 */
+}
+
+/* 로고 이미지가 들어가는 영역 (좌측 상단 고정) */
+.logo-section {
+    position: absolute; /* 부모인 navbar를 기준으로 절대 위치 */
+    top: 1rem; /* 위에서 1rem 떨어짐 */
+    left: 1rem; /* 왼쪽에서 2rem 떨어짐 */
+}
+
+/* 로고 이미지 크기 조절 및 비율 유지 */
+.logo-img {
+    height: 50px;       /* 세로 크기를 40px로 제한 */
+    width: auto;        /* 가로는 자동 계산 (비율 유지) */
+    object-fit: contain; /* 이미지 비율을 유지하면서 영역에 맞게 조절 */
+}
+
+/* 메뉴 링크들이 들어가는 부분 */
+.nav-links {
+    display: flex; /* 가로로 나열 */
+    gap: 20px;  /* 메뉴 사이 간격 */
+    margin-top: 1.5rem; /* 로고 아래 간격 */
+}
+
+/* 일반 메뉴 링크 스타일 */
+.nav-link {
+    text-decoration: none;
+    color: #333; /* 기본 글자 색 */
+    font-weight: 500;
+    font-size: 1.1rem; /* 글자 크기 */
+}
+
+/* 마우스 올렸을 때 스타일 */
+.nav-link:hover {
+    color: #1e40af;  /* 더 진하게 */
+}
+
+/* 현재 선택된 메뉴에 적용되는 스타일 */
+.active {
+    color: #1d4ed8; /* 강조된 파랑색 */
+    border-bottom: 2px solid #1d4ed8; /* 밑줄 강조 효과 */
+}
+
+

@@ -1,0 +1,12 @@
+/* src/pages/GraduatedBoard.css */
+.graduated-board {
+    background-color: #fff04d; /* 개나리색 */
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

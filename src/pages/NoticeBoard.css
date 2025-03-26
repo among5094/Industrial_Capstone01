@@ -1,0 +1,11 @@
+.notice-board {
+    background-color: lightgreen;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
