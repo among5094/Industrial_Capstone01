@@ -18,6 +18,9 @@ function Navbar() {
 
             {/* 가운데 메뉴 탭들 */}
             <div className="nav-links">
+                <Link to="/" className={linkStyle("/main-page")}>
+                    홈
+                </Link>
                 <Link to="/free-board" className={linkStyle("/free-board")}>
                     자유게시판
                 </Link>

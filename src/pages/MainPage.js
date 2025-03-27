@@ -1,16 +1,28 @@
+
 import './MainPage.css';
+import UserCard from '../components/UserCard';
+import HotPosts from '../components/HotPosts';
+import AutoSlider from '../components/AutoSlider';
+ import Footer from '../components/Footer';
 
 function MainPage() {
     return (
 
+        /* 사용자 카드 + 인기글 박스 */
         <div className="main-page">
-            {/* 👉 중앙 상단 배너 이미지 */}
-            <div className="main-banner">
-                <img src="/ExBanner01.png" alt="광고 배너" className="banner-img" />
+            <AutoSlider />
 
+            {/* 사용자 카드 + 인기글 박스 */}
+            <div className="main-content">
+                <UserCard />
+                <HotPosts />
             </div>
 
-            {/* 이후 사용자 카드나 인기 게시글 컴포넌트가 여기에 들어감 */}
+            {/* 하단 고정 배너 추가 */}
+            <div className="bottom-banner">
+                <img src="/.jpg" alt="하단 배너" className="bottom-banner-img" />
+            </div>
+
         </div>
     );
 }

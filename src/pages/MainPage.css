@@ -10,7 +10,7 @@
 .main-banner {
     display: flex;
     justify-content: center; /* 가운데 정렬 */
-    margin-bottom: 2rem;     /* 아래 요소와 간격 */
+    margin-bottom: 2rem; /* 아래 요소와 간격(배너 사이 간격) */
 }
 
 .banner-img {
@@ -19,4 +19,11 @@
     height: auto;
     border-radius: 8px; /* 약간 둥글게 */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/*  */
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
 }
