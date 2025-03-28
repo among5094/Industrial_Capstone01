@@ -1,11 +1,15 @@
+
+/* 대외활동 공지 페이지 전체 스타일 */
 .notice-board {
-    background-color: lightgreen;
-    min-height: 100vh;
-    padding: 2rem;
+    background-color: lightgreen; /* 배경색 */
+    min-height: 100vh; /* 화면 전체 높이를 최소 높이로 설정 */
+    padding: 2rem; /* 전체 내부 여백 설정 */
 }
 
+
+/* 제목 스타일 */
 .title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+    font-size: 2rem; /* 제목 글자 크기 설정 */
+    font-weight: bold; /* 글자를 굵게 표시 */
+    margin-bottom: 1rem; /* 아래 여백 설정 */
 }

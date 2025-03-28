@@ -5,28 +5,35 @@ npm install react-slick slick-carousel
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; */
 
-import Slider from 'react-slick';
+import Slider from 'react-slick'; /* react-slick 슬라이더 라이브러리 불러오기 */
 import './AutoSlider.css';
 
 function AutoSlider() {
+
+    // 슬라이더 동작 설정
     const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        pauseOnHover: true
+        dots: true, /* 하단 점 네비게이션 표시 */
+        infinite: true, /* 무한 반복 슬라이드 */
+        speed: 500, /* 슬라이드 전환 속도 (ms) */
+        autoplay: true, /* 자동 재생 여부 */
+        autoplaySpeed: 2000, /* 자동 재생 간격 (ms) */
+        pauseOnHover: true /* 마우스를 올리면 자동 재생 일시 정지 */
     };
 
     return (
-        <div className="slider-container">
-            <Slider {...settings}>
+
+        <div className="slider-container"> {/* 슬라이더 전체를 감싸는 컨테이너 */}
+            <Slider {...settings}> {/* 설정 적용된 슬라이더 실행 */}
+                {/* 배너 1 */}
                 <div><img src="/WebPoster01.png" alt="배너1" className="slider-img" /></div>
+                {/* 배너 2 */}
                 <div><img src="/WebPoster03.jpg" alt="배너2" className="slider-img" /></div>
+                {/* 배너 3 */}
                 <div><img src="/WebPoster02.png" alt="배너3" className="slider-img" /></div>
             </Slider>
         </div>
     );
 }
 
+/* 컴포넌트 외부에서 사용할 수 있도록 내보내기 */
 export default AutoSlider;

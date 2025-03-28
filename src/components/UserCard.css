@@ -1,5 +1,5 @@
 
-
+/* 사용자 카드 전체 박스 스타일 */
 .user-card {
     background-color: white;  /* 사용자 카드 배경색을 흰색으로 설정 */
     padding: 1.5rem;  /* 내부 여백을 1.5rem으로 설정 */
@@ -9,6 +9,7 @@
     width: 250px;  /* 가로 너비 고정 */
 }
 
+/* 사용자 프로필 이미지 스타일 */
 .user-img {
     width: 80px;  /* 프로필 이미지 너비 80px */
     height: 80px;  /* 프로필 이미지 높이 80px */
@@ -17,11 +18,13 @@
     margin-bottom: 0.3rem;  /* 아래 여백 */
 }
 
+/* 사용자 닉네임 스타일 */
 .user-nickname {
     font-size: 1.2rem;  /* 닉네임 글자 크기 */
     font-weight: bold;  /* 닉네임 굵게 표시 */
 }
 
+/* 사용자 학번/학과 정보 스타일 */
 .user-info {
     font-size: 0.9rem;  /* 학과 및 ID의 글자 크기 */
     color: #555;  /* 회색 계열 글자색 */

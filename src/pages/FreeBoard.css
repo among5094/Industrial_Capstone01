@@ -1,7 +1,7 @@
 
-
+/* 자유게시판 페이지 전체 스타일 */
 .free-board {
-    background-color: pink;
-    min-height: 100vh;
-    padding: 2rem;
+    background-color: pink;  /* 배경색 */
+    min-height: 100vh; /* 화면 전체 높이를 최소 높이로 설정 */
+    padding: 2rem; /* 전체 내부 여백 설정 */
 }

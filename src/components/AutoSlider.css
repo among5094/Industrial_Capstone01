@@ -1,13 +1,16 @@
+
+/* 슬라이더 전체 영역 스타일 */
 .slider-container {
-    width: 90%;
-    max-width: 1000px;
-    margin: 2rem auto;
+    width: 90%; /* 전체 너비의 90%로 설정 */
+    max-width: 1000px; /* 최대 너비는 1000px로 제한 */
+    margin: 2rem auto; /* 위아래 여백 2rem, 좌우는 auto로 가운데 정렬 */
 }
 
+/* 슬라이더 내부 이미지 스타일 */
 .slider-img {
-    width: 100%;
-    border-radius: 12px;
-    object-fit: cover;
+    width: 100%; /* 부모 너비에 맞게 꽉 채움 */
+    border-radius: 12px; /* 모서리를 둥글게 처리 */
+    object-fit: cover; /* 이미지가 비율 유지하면서 잘리도록 설정 */
 }
 
 

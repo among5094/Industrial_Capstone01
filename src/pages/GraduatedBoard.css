@@ -1,12 +1,14 @@
-/* src/pages/GraduatedBoard.css */
+
+/* 졸업생 게시판 전체 페이지 스타일 */
 .graduated-board {
-    background-color: #fff04d; /* 개나리색 */
-    min-height: 100vh;
-    padding: 2rem;
+    background-color: #fff04d; /* 배경색 */
+    min-height: 100vh; /* 화면 전체 높이를 최소 높이로 설정 */
+    padding: 2rem; /* 내부 여백 설정 */
 }
 
+/* 제목 스타일 */
 .title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+    font-size: 2rem; /* 글자 크기를 크게 설정 */
+    font-weight: bold; /* 글자를 굵게 설정 */
+    margin-bottom: 1rem; /* 아래 여백 추가 */
 }

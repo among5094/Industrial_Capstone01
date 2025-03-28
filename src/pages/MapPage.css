@@ -1,5 +1,7 @@
+
+/* 캠퍼스맵 페이지 전체 스타일 */
 .map-page {
-    background-color: skyblue;
-    min-height: 100vh;
-    padding: 2rem;
+    background-color: skyblue; /* 배경색 설정 */
+    min-height: 100vh; /* 화면 전체 높이를 최소 높이로 설정 */
+    padding: 2rem; /* 전체 내부 여백 설정 */
 }

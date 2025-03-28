@@ -1,29 +1,31 @@
 
+/* 메인 페이지 전체 영역 스타일 */
 .main-page {
-    background-color: #ffffff; /* 배경*/
+    background-color: #ffffff; /* 배경 */
     color: #000000;  /* 글자색은 검정색 */
-    padding: 2rem;
-    min-height: 100vh;
+    padding: 2rem; /* 내부 여백 */
+    min-height: 100vh; /* 화면 최소 높이 전체로 설정 */
 }
 
-/* 배너 이미지 */
+/* 배너 이미지 영역 */
 .main-banner {
-    display: flex;
+    display: flex; /* 가로 정렬 */
     justify-content: center; /* 가운데 정렬 */
-    margin-bottom: 2rem; /* 아래 요소와 간격(배너 사이 간격) */
+    margin-bottom: 2rem; /* 아래 요소와의 간격 */
 }
 
+/* 배너 이미지 스타일 */
 .banner-img {
-    width: 90%;         /* 반응형 너비 */
-    max-width: 900px;   /* 최대 너비 제한 */
-    height: auto;
-    border-radius: 8px; /* 약간 둥글게 */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%; /* 반응형 너비 설정 */
+    max-width: 900px; /* 최대 너비 제한 */
+    height: auto; /* 높이는 자동 비율 유지 */
+    border-radius: 8px; /* 모서리를 약간 둥글게 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
 }
 
-/*  */
+/* 사용자 카드와 인기글 영역을 감싸는 박스 */
 .main-content {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
+    display: flex; /* 가로 정렬 */
+    justify-content: center; /* 가운데 정렬 */
+    gap: 3rem; /* 요소 사이 간격 */
 }
