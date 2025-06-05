@@ -1,0 +1,163 @@
+/* D-Day 배지 */
+.dday-badge {
+    background-color: black;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #f1f3f5;
+    color: #343a40;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.category-badge {
+    background-color: #f1f3f5;
+    color: #343a40;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+hr.divider {
+    all: initial;
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+    height: 0;
+    width: 100%;
+    display: block;
+    box-sizing: content-box;
+}
+
+.main-content,
+.main-content-body {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.detail-two-columns,
+.detail-two-columns .column,
+.detail-two-columns .item {
+    text-align: left;
+}
+
+.detail-box {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: #f1f3f5;
+}
+
+.detail-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+
+.detail-two-columns {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.column {
+    flex: 1;
+}
+
+.item {
+    margin-bottom: 14px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.item strong {
+    display: inline-block;
+    width: 100px;
+    color: #495057;
+}
+
+.item a {
+    color: #0066cc;
+    text-decoration: underline;
+    word-break: break-word;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 3px 8px;
+    font-size: 13px;
+    border-radius: 8px;
+    margin-right: 6px;
+    margin-top: 4px;
+}
+
+.scrap-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #444;
+}
+
+/*  스크랩 박스 (이미지 + 숫자 수직 정렬) */
+.scrap-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    padding: 8px 0;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+
+/* 북마크 클릭 시 (활성 이미지) */
+.scrap-icon.active {
+    background-image: url('../../../image/enbookmark.png');
+}
+
+.scrap-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.scrap-count {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #8899aa;
+}
+
+.scrap-btn:hover {
+    color: #0077cc;
+}
+
+.dday-badge.closed {
+    background-color: #888;
+    color: white;
+}

@@ -1,0 +1,109 @@
+/* 게시판 공통 배경 */
+.free-board, .graduated-board {
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* 자유게시판 - 배경색 */
+.free-board {
+    background-color: #f9f9f9;  /* 연한 회색으로 변경 */
+}
+
+/* 졸업생 게시판 - 배경색 */
+.graduated-board {
+    background-color: #fffbe6;  /* 연한 노란색 느낌 */
+}
+
+/* 제목 스타일 */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* 게시판 컨테이너 (전체 정렬용) */
+.board-container {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* 게시글 목록 리스트 */
+.post-list {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+/* 게시글 카드 스타일 */
+.post-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 게시글 썸네일 */
+.post-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* 게시글 텍스트 컨텐츠 */
+.post-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 게시글 제목 */
+.post-content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem 0;
+}
+
+/* 본문 미리보기 (스니펫) */
+.post-snippet {
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+/* 하단 정보 (작성자, 작성일, 좋아요, 댓글) */
+.post-meta {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+/* 게시글 좋아요/삭제 버튼 */
+.post-actions {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 8px;
+}
+
+.post-actions button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.post-actions button:hover {
+    background: #f0f0f0;
+}

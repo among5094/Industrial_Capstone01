@@ -1,0 +1,119 @@
+.activity-container {
+    padding-top: 20px; /* 헤더 들어갈 공간 확보 */
+    padding-bottom: 40px;
+}
+
+.search-bar {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tabs button.active {
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.write-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.filter-dropdown {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px;
+}
+
+.filter-dropdown select {
+    padding: 14px 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+    appearance: none;
+    background: #fff url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20fill%3D%22%23333%22%20height%3D%2224%22%20width%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5H7z%22/%3E%3C/svg%3E") no-repeat right 12px center;
+    background-size: 18px 18px;
+}
+
+.section-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px 30px;
+    margin: 30px auto;
+    max-width: 1200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.wholeboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 10px 20px;
+}
+
+.result-summary {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.board-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+}

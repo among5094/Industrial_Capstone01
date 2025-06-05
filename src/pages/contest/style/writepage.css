@@ -1,0 +1,46 @@
+.write-container {
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.write-container h2 {
+    text-align: center;
+}
+
+.write-container label {
+    font-weight: bold;
+}
+
+.write-container input,
+.write-container select,
+.write-container textarea,
+.custom-datepicker {
+    padding: 14px 18px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.write-container textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+.write-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.write-container button:hover {
+    background-color: #0056b3;
+}

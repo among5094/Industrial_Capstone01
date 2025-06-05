@@ -1,0 +1,111 @@
+.footer-dark {
+    background-color: #111;
+    color: #d1d5db;
+    padding: 40px 20px;
+    font-size: 14px;
+}
+
+/* 메뉴/로고 수평 정렬 */
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+/* 로고 위치 */
+.footer-left {
+    flex-shrink: 0;
+}
+
+/* 로고 이미지 크기 + 반투명 */
+.footer-logo-img {
+    width: 80px;
+    opacity: 0.8;
+}
+
+/* PAI CHAI 텍스트 */
+.footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+/* 메뉴 항목 스타일 + 볼드 + 흰색 */
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* 메뉴 항목 기본 스타일 */
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* 호버 시 강조 */
+.footer-menu a:hover {
+    color: #facc15;
+}
+
+/* 메뉴 항목 사이 구분선 | */
+.divider {
+    color: white;
+    margin: 0 4px;
+}
+
+/* 하단 텍스트 블록에 가로선 추가 */
+.footer-bottom {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-top: 24px;
+    border-top: 1px solid #2f2f2f; /* 가로선 추가 */
+    padding-top: 20px; /* 여백 추가 */
+}
+
+/* 하단 링크 리스트 (개인정보 등) */
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    color: #d1d5db;
+}
+
+/* 각 링크 기본 스타일 */
+.footer-links a {
+    text-decoration: none;
+    color: #d1d5db;
+    font-size: 14px;
+}
+
+/* 개인정보 처리방침 강조 */
+.footer-links a.highlight {
+    color: #facc15;
+    font-weight: 600;
+}
+
+/* 주소 텍스트 */
+.footer-address {
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #9ca3af;
+    line-height: 1.6;
+}
+
+/* span 요소 색 조정 */
+.footer-bottom span {
+    color: #6b7280;
+}

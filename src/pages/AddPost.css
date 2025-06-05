@@ -1,0 +1,38 @@
+.post {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post select {
+    padding: 3px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.post option {
+
+}
+
+.post input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    margin: 10px;
+}
+.post textarea {
+    resize: none;
+    width: 80%;
+    height: 120px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.post button {
+    padding: 8px 16px;
+    background-color: #4586BF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}

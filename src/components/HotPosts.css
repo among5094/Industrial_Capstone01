@@ -1,0 +1,39 @@
+
+/* 인기글 전체 박스 스타일 */
+.hot-posts {
+    background-color: #ffffff; /* 흰 배경 */
+    padding: 1.5rem; /* 내부 여백 */
+    border-radius: 12px; /* 모서리 둥글게 */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08); /* 그림자 효과 */
+    width: 500px; /* 가로 너비 고정 */
+}
+
+/* 인기글 제목 스타일 */
+.hot-posts h3 {
+    margin-bottom: 1rem; /* 아래쪽 여백 */
+    font-weight: bold; /* 굵은 글씨 */
+    font-size: 1.1rem; /* 약간 큰 글씨 */
+    color: #ef4444; /* 빨강 강조 */
+}
+
+/* 글 목록 기본 설정 제거 */
+.hot-posts ul {
+    list-style: none; /* 점 표시 제거 */
+    padding: 0; /* 안쪽 여백 제거 */
+    margin: 0; /* 바깥 여백 제거 */
+}
+
+/* 각 게시글 항목 스타일 */
+.hot-posts li {
+    margin-bottom: 0.75rem; /* 아래쪽 간격 */
+    font-size: 0.95rem; /* 글자 크기 */
+    padding-left: 0.3rem; /* 왼쪽 여백 */
+    transition: 0.2s ease; /* hover 효과 부드럽게 */
+}
+
+/* 마우스를 올렸을 때 효과 */
+.hot-posts li:hover {
+    color: #1e3a8a; /* hover 시 파랑색 */
+    text-decoration: underline; /* 밑줄 추가 */
+    cursor: pointer; /* 커서 포인터로 변경 */
+}

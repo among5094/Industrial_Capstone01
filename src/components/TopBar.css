@@ -1,0 +1,80 @@
+
+.topbar {
+    background-color: #1c2c4c;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 20px;
+    height: 40px
+}
+
+.topbar-left a,
+.topbar-right a {
+    color: white;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+/* SNS 아이콘 그룹 컨테이너: 가로 정렬 + 간격 */
+.topbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* 아이콘 간 여백 (기존 margin-right 대체 가능) */
+    margin-right: 20px;
+}
+
+/* 아이콘 이미지 스타일 */
+.topbar-icons img {
+    width: 22px;
+    height: 22px;
+    transition: transform 0.2s;
+    vertical-align: middle; /* 추가: 아이콘이 라인 가운데에 위치하도록 */
+}
+
+/* 호버 애니메이션 효과 */
+.topbar-icons img:hover {
+    transform: scale(1.15);
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.topbar-right img {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* 슬로건 스타일 */
+.slogan-banner {
+    width: 100%;
+    overflow: hidden;
+    background-color: #1c2c4c; /* TopBar와 동일 */
+    height: 30px;
+    position: relative;
+}
+
+.slogan-banner span {
+    display: inline-block;
+    white-space: nowrap;
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    position: absolute;
+    animation: moveText 15s linear infinite;
+}
+
+/* 텍스트 이동 애니메이션 */
+@keyframes moveText {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -100%;
+    }
+}
