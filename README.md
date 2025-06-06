@@ -53,7 +53,6 @@ UI 테스트(UI Test) 및 사용자 피드백 반영: 강지우, 김시연
 주요 테이블 및 관계 구조입니다. 
 
 ![image](https://github.com/user-attachments/assets/f916f030-2cf0-4407-bc7d-cdf7bc78b587)
-![erd](https://github.com/user-attachments/assets/afc5c5eb-6e78-4ce4-b102-980928ed93bc)
 
 <br><br>
 
