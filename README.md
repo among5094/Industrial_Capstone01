@@ -1,4 +1,5 @@
 # 2025학년 1학기 산학캡스톤디자인 
+<br><br>
 
 ## 🔖 작품명
 - 배재광장
@@ -51,7 +52,8 @@ UI 테스트(UI Test) 및 사용자 피드백 반영: 강지우, 김시연
 
 <img width="479" alt="개발일정" src="https://github.com/user-attachments/assets/09abe608-491e-46f4-8847-c4bc91c4b7bb" />
 
-<br>
+<br><br>
+
 # 🔎 ERD 
 주요 테이블 및 관계 구조입니다. 
 
