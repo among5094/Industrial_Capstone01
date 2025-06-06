@@ -46,13 +46,15 @@ UI 테스트(UI Test) 및 사용자 피드백 반영: 강지우, 김시연
 - 3개월 전체적인 개발 일정입니다. 
 - **매주 개인의 진행상황을 서로 이야기하고 방향성을 맞추는 회의**를 진행했습니다.
 
-<img width="479" alt="개발일정" src="https://github.com/user-attachments/assets/2a5c9174-e2fb-41ed-9908-dbbcb8caf22c" />
+<img width="479" alt="개발일정" src="https://github.com/user-attachments/assets/09abe608-491e-46f4-8847-c4bc91c4b7bb" />
+
 
 <br><br>
 # 🔎 ERD 
 주요 테이블 및 관계 구조입니다. 
 
 ![image](https://github.com/user-attachments/assets/f916f030-2cf0-4407-bc7d-cdf7bc78b587)
+![erd](https://github.com/user-attachments/assets/cd88cc12-d546-4834-a3a1-953a7167ddca)
 
 <br><br>
 
